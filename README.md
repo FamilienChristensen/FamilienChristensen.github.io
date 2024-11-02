@@ -1,2 +1,2 @@
 # FamilienChristensen.github.io
-Personlig hjemmeside til familie. Se siden: familienchristensen.github.io/index
+Personlig hjemmeside til familie. Se side ved: https://familienchristensen.github.io/index
