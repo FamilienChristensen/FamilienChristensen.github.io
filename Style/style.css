@@ -32,7 +32,8 @@ body {
 }
 @font-face {
     font-family: balloonFont;
-    src: url(Fonts/baby-gemoy/Baby\ Gemoy.ttf);
+    src: local("baby gemoy")
+    url(Fonts/baby-gemoy/Baby\ Gemoy.ttf);
 }
 
 
