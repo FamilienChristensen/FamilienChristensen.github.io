@@ -2,44 +2,64 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <!--script src="scripts.js"></script-->
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Scripts/fontColorCycler.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+   
     <!--INTRO-->
     <!--<link rel="stylesheet" href="style1.css">-->
     <!--<script src="scripts.js"></script>-->
     <title>Familien Christensen</title>
 </head>
 
-
-
-
 <body>
-  <body>
-    <div class="header">
-      <div class="topbar">
-        <div class="topinf1">Familien Christensen</div>
-        <div class="topinf2">Mail: simonlchristensen4@gmail.com</div>
+  
+  <!-- <audio src="/audio/test-guitar.mp3" controls>
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+  </audio> -->
+
+  <div class="content">
+    <div class="aside">
+      <div class="beskedboks">Læg en besked:
+        <div class="beskedboksboks"></div>
       </div>
-      <div class="header-menu">
-        <img src="img/famc_logo.png" alt="logo" class="logo">
+      <div class="sideknapper">
+        
+      </div>
+      <div class="audioplayer">
+        <audio controls autoplay muted id="player1">
+          <source src="audio/test-guitar.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+          <input type="range" id="volume-slider" aria-label="Search">
+        <script>
+          let volume = document.getElementById('volume-slider');
+          volume.addEventListener("change", function(e) {
+              document.getElementById('player1').volume = e.currentTarget.value / 100;
+          })
+        </script>
       </div>
     </div>
-    <h1>Test?</h1><br>
-    <p>Test Test Test Test: 
-      <ul>
-        <li>Test</li>
-        <li>Test</li>
-        <li>Test</li>
-        <li>Test</li>
-        <li>Test</li>
-      </ul>
-      </p>
-  </body>
-  </html>
-  
+    <div class="forside">
+      <div class="logo-buffer"></div>
+      <div class="logo">
+        <div class="logo-tekst" id="logo-tekst">
+          Fam.C
+        </div>
+      </div>
+      <div class="billeder">
+        <img src="img/famc_logo.png" alt="test" class="forside-billeder" id="forside-billede1">
+        <img src="img/famc_logo.png" alt="test" class="forside-billeder" id="forside-billede2">
+        <img src="img/famc_logo.png" alt="test" class="forside-billeder" id="forside-billede3">
+        <img src="img/famc_logo.png" alt="test" class="forside-billeder" id="forside-billede4">
+      </div>
+      <div class="visit-counter">
+      </div>
+    </div>
+    
+  </div>
 </body>
 </html>
 

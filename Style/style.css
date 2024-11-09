@@ -1,0 +1,103 @@
+.forside {
+    width: 80%;
+    height: 85vh;
+}
+.logo {
+    min-width: 70%;
+    min-height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-tekst {
+    font-size: 150px;
+    text-align: center;
+    font-family: balloonFont;
+    color: red;
+    -webkit-text-stroke: 2px black;
+}
+.logo-buffer {
+    height: 10%;
+}
+.billeder {
+    height: 50%;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+body {
+    background-image: url("../img/skov1blur-merged.png");
+    background-color: #FFA426;
+    background-size: cover;
+}
+@font-face {
+    font-family: balloonFont;
+    src: url(../fonts/baby-gemoy/Baby\ Gemoy.ttf);
+}
+
+
+
+#forside-billede1 {
+    transform: rotate(20deg);
+    width: 20%;
+    height: 80%;
+    margin-left: 40px; margin-right: 0px;
+}
+#forside-billede2 {
+    transform: rotate(-10deg);
+    width: 20%;
+    height: 80%;
+}
+#forside-billede3 {
+    transform: rotate(-20deg);
+    width: 20%;
+    height: 80%;
+}
+#forside-billede4 {
+    transform: rotate(10deg);
+    width: 20%;
+    height: 80%;
+}
+
+
+
+.aside {
+    width: 20%;
+    height: 85vh;
+    float: right;
+    padding: 10px;
+    background-color: rgba(255, 169, 63, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(255, 153, 44, 0.5);
+}
+.beskedboks {
+    width: 100%;
+    height: 20vh;
+    margin-top: 5vh;
+    font-size: 28px;
+}
+.beskedboksboks {
+    height: 10vh;
+    width: 90%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+}
+.sideknapper {
+  height: 50vh;
+}
+.audioplayer {
+    height: 10vh;
+}
+#player1 {
+    height: 50%;
+    width: 100%;
+}
+#volume-slider {
+    /* Use flexbox for slider wrapper element */
+    display:flex;
+    margin: auto;
+}
+
